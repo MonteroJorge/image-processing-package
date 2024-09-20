@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: image_processing
+Version: 0.0.1
+Summary: Este pacote fornece utilitários para tratamento de imagens.
+Home-page: https://github.com/MonteroJorge/image-processing-package
+Author: Jorge
+Author-email: jorge.luiz.montero@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: skimage
+Requires-Dist: numpy
+
+# image_processing
+
+Description. 
+The package image_processing is used to:
+	- Este pacote fornece utilitÃ¡rios para tratamento de imagens.
+	-
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing
+
+```bash
+pip install image_processing
+```
+
+## Usage
+
+```python
+from image_processing.utils import plot
+plot.plot_image()
+```
+
+## Author
+Jorge Montero forked from tiemi
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
